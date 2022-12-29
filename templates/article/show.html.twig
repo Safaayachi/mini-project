@@ -1,0 +1,8 @@
+{% extends "base.html.twig" %}
+{% block title %}{{parent()}} - Edit{% endblock %}
+{% block titre %}{{parent()|upper}} - consultation de {{article.getLibelle()}} {% endblock %}
+{% block body %}
+<h1>price {{article.getPrice()}} </h1> <br>
+<h1> Disponibilité {{ article.getIsDisponible() }}</h1>
+<h1> Marque {{article.getMarque}} </h1>
+{% endblock %}

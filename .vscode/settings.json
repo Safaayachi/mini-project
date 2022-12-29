@@ -1,7 +1,8 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#7cc301",
-        "titleBar.activeBackground": "#9ded08",
-        "titleBar.activeForeground": "#FAFBF8"
-    }
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#7cc301",
+		"titleBar.activeBackground": "#9ded08",
+		"titleBar.activeForeground": "#FAFBF8"
+	},
+	"cSpell.words": ["Categorie", "Disponible", "Libelle"]
 }
